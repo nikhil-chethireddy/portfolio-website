@@ -4,4 +4,4 @@ Welcome to my personal portfolio website! This site highlights my skills, experi
 
 Feel free to explore my projects and see how I apply my skills in real-world applications.
 
-You can view the live demo of this Website at [Live-demo-link]().
+You can view the live demo of this Website at [Live-demo-link](https://nikhil-chethireddy.netlify.app/).
