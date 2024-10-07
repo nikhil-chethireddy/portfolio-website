@@ -110,10 +110,13 @@
     padding: 10rem 0 7.5rem 0;
   }
   .home-content h1 {
-    font-size: 8rem;
+    font-size: 6.5rem;
   }
   .home-content h3 {
     font-size: 3.5rem;
+  }
+  .timeline-content {
+    padding: 30px;
   }
   .footer {
     padding: 15px 0;
