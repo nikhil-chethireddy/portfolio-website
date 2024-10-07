@@ -1,0 +1,121 @@
+@media screen and (max-width: 1285px) {
+  #menu-icon {
+    display: block;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 35%;
+    padding: 1rem 3rem;
+    background: rgba(0, 0, 0, 0.8);
+    border-left: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    border-bottom-left-radius: 2rem;
+    display: none;
+  }
+  .navbar a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+  .active {
+    display: block;
+  }
+  .contactMe {
+    display: block;
+  }
+  .gradient-btn {
+    display: none;
+  }
+  section {
+    padding: 10rem 10%;
+  }
+  .home {
+    flex-direction: column-reverse;
+    margin: 5rem 0 0 0;
+    gap: 5rem;
+  }
+  .home-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-content h1 {
+    font-size: 7rem;
+  }
+  .home-content h3 {
+    font-size: 3.5rem;
+  }
+
+  .home-img img {
+    width: 50vw;
+  }
+  .about {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .about-content h2 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .about-img img {
+    width: 52vw;
+  }
+  .heading {
+    font-size: 6rem;
+    margin: 1rem 0 5rem 0;
+  }
+  .contact form {
+    flex-direction: column;
+    gap: 0;
+  }
+  .contact form .input-group-2 input {
+    margin-top: 2rem;
+  }
+  .footer {
+    padding: 30px 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .timeline-items::before {
+    left: 7px;
+  }
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+  .timeline-dot {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 3rem 15%;
+  }
+  .navbar {
+    width: 45%;
+  }
+  section {
+    padding: 7.5rem 10%;
+  }
+  .home {
+    padding: 10rem 0 7.5rem 0;
+  }
+  .home-content h1 {
+    font-size: 8rem;
+  }
+  .home-content h3 {
+    font-size: 3.5rem;
+  }
+  .footer {
+    padding: 15px 0;
+  }
+}

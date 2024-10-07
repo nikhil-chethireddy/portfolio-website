@@ -1,0 +1,55 @@
+.services {
+  background-color: var(--bg-color);
+  color: black;
+}
+.services h2 {
+  color: var(--text-color);
+}
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  align-items: start;
+  gap: 2.5rem;
+}
+.service-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  height: 700px;
+  border-radius: 3rem;
+  cursor: pointer;
+  border: 5ps solid transparent;
+  transition: 0.4s ease-in-out;
+}
+.service-box:hover {
+  background-color: var(--second-bg-color);
+  color: var(--main-color);
+  border: 5px solid var(--main-color);
+  transform: scale(1.03);
+}
+.service-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem;
+}
+.service-info .icon {
+  font-size: 8rem;
+}
+.service-info h4 {
+  font-size: 4.1rem;
+  font-weight: 800;
+  margin: 2rem 0;
+}
+.service-info p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.8;
+}
+.service-info img {
+  max-width: 125px;
+}
